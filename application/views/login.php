@@ -10,31 +10,31 @@
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-            <form action="#">
+            <form action="<?php echo site_url('Welcome/sign_up') ?>" method='post'>
                 <h1>Sign up</h1>
                 <div class="social-container">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-google-plus-g"></i>
                     <i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <input type="text" placeholder="Nom">
-                <input type="email" placeholder="E-mail">
-                <input type="password" placeholder="Mot de passe">
-                <input type="file" id="upload">
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="password" name="pwd" placeholder="Mot de passe">
+                <input type="file" name="user_pic" id="upload">
                 <button>Sign up</button>
             </form>
         </div>
 
         <div class="form-container sign-in-container">
-            <form action="#">
+            <form action="<?php echo site_url('Welcome/sign_in') ?>" method='post'>
                 <h1>Login page</h1>
                 <div class="social-container">
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-google-plus-g"></i>
                     <i class="fab fa-linkedin-in"></i>
                 </div>
-                <input type="email" placeholder="E-mail">
-                <input type="password" placeholder="Mot de passe">
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="password" name="pwd" placeholder="Mot de passe">
                 <button>Sign in</button>
             </form>
         </div>
