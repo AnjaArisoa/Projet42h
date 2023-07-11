@@ -44,9 +44,7 @@
                     array_push($ans, $values);
                 }
             }
-            return $ans;
-            // $coef = ($height - 100)/$weight;
-            // return 10 / ($coef * 1);    
+            return $ans;  
         }
 
         public function getPrix($idRegime){
@@ -54,6 +52,18 @@
             $result = $this->db->query($sql);
             $ans = $result->result_array();
             return $ans[0]['prix'];
+        }
+
+        public function WeightForIMC($height, $weight){
+            $imc = $weight / pow($height/100, 2);
+            echo $imc;
+            if ($imc > 25) {
+                return (25 * pow($height/100, 2)) - $weight;
+            }
+            else if ($imc < 19) {
+                return (19 * pow($height/100, 2)) - $weight;
+            }
+            else return;
         }
 
         public function getComposant(){

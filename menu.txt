@@ -12,3 +12,6 @@ Céréales 74% (flocons d'avoine complet (gluten), flocons de blé complet 6,9% 
 
 Tajine de légumes aux céréales
 Eau, semoule complète de blé dur préparée 17% (eau, semoule complète de blé dur, huile de colza, sel), carottes, pois chiches réhydratés 9,5%, haricots verts 9%, petits pois 4,8%, lentilles noires beluga réhydratées, sarrasin réhydraté, concentré de tomates 1,9%, huile d'olive vierge extra, raisins secs (contient huile de colza et/ou huile de coton), protéines de soja texturées, sel, épices, amidon, arômes naturels (contient lait), gingembre.
+
+Query=select u.nom as nom from credit_attente as cr join account as a on cr.idAccount=a.idaccount
+    join user as u on a.idUser=u.idUser;
