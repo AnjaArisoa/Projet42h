@@ -1,0 +1,53 @@
+Compote Pomme
+Purée de pomme 95,74%, sucre, antioxydant : acide ascorbique.
+Energie (kJ) 	288 	288
+Energie (kcal) 	68 	68
+Matières grasses (g) 	0.6 	0.6
+Dont acides gras saturés (g) 	0.2 	0.2
+Glucides (g) 	15 	15
+Dont sucres (g) 	14 	14
+Fibres (g) 	1.4 	1.4
+Protéines (g) 	0.5 	0.5
+Sel (g) 	0.01 	0.01
+
+
+Entremets vanille
+Sucre, amidon de maïs, fibre de chicorée, gélifiant : pectine, arômes naturels de vanille, sel, extrait de carotte.
+Energie (kJ) 	1540 	523
+Energie (kcal) 	368 	124
+Matières grasses (g) 	0.4 	0.2
+Dont acides gras saturés (g) 	0.1 	0.1
+Glucides (g) 	86.9 	24.9
+Dont sucres (g) 	55.6 	18.3
+Fibres (g) 	6.3 	1.3
+Protéines (g) 	0.3 	4.8
+Sel (g) 	0.6 	0.3
+
+Petits pains aux céréales BIO 
+Farine de blé*, eau, graines* 10%, (tournesol*, lin brun*), levain* (farine de blé*, eau), son de blé*, sel marin non traité, levure*, farine de blé d'épeautre malté torréfié*
+* 100% des ingrédients d'origine agricole sont issus de l'Agriculture Biologique
+Contient: Gluten. Traces possibles : soja, œufs, fruits à coque, dérivés du lait, graines de sésame.
+Energie (kJ) 	1351 	513
+Energie (kcal) 	321 	122
+Matières grasses (g) 	8.4 	3.2
+Dont acides gras saturés (g) 	1 	0.4
+Glucides (g) 	49 	18.6
+Dont sucres (g) 	1.3 	0.5
+Fibres (g) 	4.6 	1.7
+Protéines (g) 	10 	3.8
+Sel (g) 	1.1 	0.4
+
+
+Purée de pomme de terre et ciboulette
+Flocons de pomme de terre, poudre de lait écrémé, fécule de manioc, sel arômes naturels, épices et plantes aromatiques dont ciboulette (0,3%).
+Contient: Lait. Peut contenir des traces de blé
+ 	Pour 100g 	Portion de 50g
+Energie (kJ) 	1445 	722.5
+Energie (kcal) 	346 	173
+Matières grasses (g) 	0.5 	0.2
+Dont acides gras saturés (g) 	0.4 	0.2
+Glucides (g) 	71.5 	35.7
+Dont sucres (g) 	8.9 	4.4
+Fibres (g) 	6.5 	3.3
+Protéines (g) 	11.8 	5.9
+Sel (g) 	2.3 	1.1

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+:root{
+    --main-color: #027581;
+    --color-dark: #1D2231;
+    --text-grey: #8390A2;
+}
+
+*{
+    font-family:'Poppins',sans-serif ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #669980;
+}
+.sidebar{
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: #666699;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0rem 1rem;
+}
+.sidebar-menu{
+    padding: 1rem;
+}
+.sidebar li{
+    margin-bottom: 1.2rem;
+}
+.sidebar a{
+    color: #fff;
+    font-size: .9rem;
+}
+
+.sidebar a span:last-child{
+    padding-right:.6rem;
+}
+.main-content{
+    position: relative;
+    margin-left: 240px;
+}
+header{
+    position: fixed;
+    left: 241px;
+    top: 0;
+    z-index: 100;
+    width: calc(100% - 240px);
+    background: #fff;
+    height: 60px;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-wrapper{
+    display: flex;
+
+}
+.search-wrapper input{
+    border: 0;
+    outline: 0;
+    width: 1000px;
+    padding: 1rem;
+    height: 38px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+}
+.social-icons span,
+.social-icons div{
+    margin-left: 1.2rem;
+}
+.social-icons div{
+    height: 38px;
+    width: 38px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+main{
+    margin-top: 100px;
+    background: #f1f5f9;
+    min-height: 90vh;
+    padding: 1rem 3rem;
+    background-color: #669980;
+}
+.dash-title{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.dash-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+}
+.card-single{
+    background: #fff;
+    height: 500px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    margin-bottom: 50px;
+}
+.card-body{
+    margin-top: 20px;
+    align-items: center;
+    height: 300px;
+    border-radius: 10px;
+}
+.card-body img{
+    width:380px; 
+    height:250px;
+}
+
+.card-footer{
+    padding: .2rem 1rem;
+    text-align: center;
+    margin-top: 145px;
+    background: #f9fafc;
+}
+.card-footer a{
+    color:  var(--main-color);
+}
